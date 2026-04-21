@@ -1,0 +1,92 @@
+body{
+   background-color: rgb(198, 196, 196);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(85, 82, 78);
+font-size: medium;
+display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertical center */
+  align-items: center;      /* horizontal center */
+  min-height: 100vh;        /* full screen height */
+  margin: 0;
+}
+.player-img{
+    border: 3px solid black;
+    width: 250px;
+    height: auto;
+}
+h2{
+    margin-bottom: 3px;
+}
+ol{
+    margin-top: 3px;
+}
+
+body {
+  background-color: #111;
+  font-family: Arial, sans-serif;
+}
+
+/* Card container */
+.card {
+  width: 300px;
+  background: #1c1c1c;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  text-align: center;
+  color: white;
+}
+
+/* Player image */
+.card-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Content section */
+.card-content {
+  padding: 15px;
+}
+
+/* Team text */
+.team {
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+/* Stats row */
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Individual stat */
+.stat h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.stat p {
+  margin: 0;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.toplink1{
+    position: absolute;
+  top: 20px;
+  right: 20px;
+  text-decoration: none;
+  color: rgb(85, 82, 78);
+  font-weight: bold;
+}
+.toplink2{
+    position: absolute;
+  top: 40px;
+  right: 20px;
+  text-decoration: none;
+  color: rgb(85, 82, 78);
+  font-weight: bold;
+}
